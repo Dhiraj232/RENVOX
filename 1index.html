@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renvox | Travel Made Easy</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #0f172a;
+            color: #fff;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #0f172a, #1e293b);
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+
+        .hero button {
+            padding: 12px 30px;
+            border: none;
+            background: #38bdf8;
+            color: #000;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .section {
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .section h3 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .card h4 {
+            margin-bottom: 10px;
+            color: #0f172a;
+        }
+
+        .about {
+            background: #e2e8f0;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer span {
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Renvox</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Ride Your Way, Anywhere</h2>
+    <p>Car, Auto & Bike travel for short and long distances – all in one platform.</p>
+    <button>Book Your Ride</button>
+</section>
+
+<section class="section">
+    <h3>Our Services</h3>
+    <div class="services">
+        <div class="card">
+            <h4>Car Booking</h4>
+            <p>Comfortable and safe car rides for local and outstation travel.</p>
+        </div>
+        <div class="card">
+            <h4>Auto Booking</h4>
+            <p>Quick and affordable autos for daily city travel.</p>
+        </div>
+        <div class="card">
+            <h4>Bike Travel</h4>
+            <p>Fast and budget-friendly bike rides for short distances.</p>
+        </div>
+        <div class="card">
+            <h4>Long Distance</h4>
+            <p>Reliable travel solutions for long journeys.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section about">
+    <h3>About Renvox</h3>
+    <p>
+        Renvox is a modern travel platform designed to make transportation simple, affordable,
+        and accessible for everyone. Whether your journey is short or long, we are here to move you.
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 <span>Renvox</span>. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
